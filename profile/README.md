@@ -6,7 +6,7 @@
 - Commit
 - Discuss
 
-## Hilights
+## Highlights
 
 - CWS: A Dark Winter Beta released!
 - Nexus Client 1.19 Development has begun

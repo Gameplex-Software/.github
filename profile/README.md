@@ -10,3 +10,5 @@
 
 - CWS: A Dark Winter Beta released!
 - Nexus Client 1.19 Development has begun
+
+[Our BIO](https://github.com/Gameplex-Software/.github/blob/main/profile/BIO.md)

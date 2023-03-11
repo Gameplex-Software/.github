@@ -16,9 +16,8 @@ jobs:
         with:
           filename: metrics.organization.svg
           user: gameplex-software
-          token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header, repositories
           output_action: none
           delay: 120
           plugins_errors_fatal: yes
-        if: ${{ success() || failure() }}

@@ -3,10 +3,6 @@ name: Publish metrics
 on:
   schedule:
     - cron: "0 8 1/2 * *"
-  workflow_call:
-    secrets:
-      METRICS_TOKEN:
-        required: false
 jobs:
   examples:
     runs-on: ubuntu-latest

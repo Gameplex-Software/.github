@@ -10,7 +10,6 @@ on:
 jobs:
   examples:
     runs-on: ubuntu-latest
-    if: "github.repository == 'lowlighter/metrics'"
     steps:
       - name: Organization Metrics
         uses: lowlighter/metrics@latest

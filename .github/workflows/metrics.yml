@@ -3,7 +3,6 @@ name: Publish metrics
 on:
   schedule:
     - cron: "0 8 1/2 * *"
-  workflow_dispatch:
   workflow_call:
     secrets:
       METRICS_TOKEN:

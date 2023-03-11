@@ -6,7 +6,7 @@ on:
   workflow_call:
     secrets:
       METRICS_TOKEN:
-        required: true
+        required: false
 jobs:
   examples:
     runs-on: ubuntu-latest

@@ -12,5 +12,4 @@
 
 ## Highlights
 
-- CWS: A Dark Winter Beta released!
-- SkiffUI Development is in full swing
+!()[https://raw.githubusercontent.com/Gameplex-Software/.github/ecaab2ff2f567ee24928ea44f3ee29fe3257ef16/github-metrics.svg]

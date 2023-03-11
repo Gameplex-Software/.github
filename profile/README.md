@@ -12,6 +12,6 @@
 
 ## Highlights
 
-<p align=center)
+<p align=center>
 ![](https://raw.githubusercontent.com/Gameplex-Software/.github/ecaab2ff2f567ee24928ea44f3ee29fe3257ef16/github-metrics.svg)
 </p>

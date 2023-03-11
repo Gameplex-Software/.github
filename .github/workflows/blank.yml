@@ -1,0 +1,26 @@
+# THIS WORKFLOW IS AUTO-GENERATED
+name: Publish examples
+on:
+  schedule:
+    - cron: "0 8 1/2 * *"
+  workflow_dispatch:
+  workflow_call:
+    secrets:
+      METRICS_TOKEN:
+        required: true
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    if: "github.repository == 'lowlighter/metrics'"
+    steps:
+      - name: Organization Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.organization.svg
+          user: gameplex-software
+          token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+          base: header, repositories
+          output_action: none
+          delay: 120
+          plugins_errors_fatal: yes
+        if: ${{ success() || failure() }}

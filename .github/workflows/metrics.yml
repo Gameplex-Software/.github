@@ -1,7 +1,8 @@
 # THIS WORKFLOW IS AUTO-GENERATED
 name: Publish metrics
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 jobs:
   examples:
     runs-on: ubuntu-latest
